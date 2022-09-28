@@ -18,25 +18,22 @@ Help Menu.
 Usage examples:
  ./hashchain.sh -a md5sum -d [/absolute/path/to/first-directory-name/]
 
-Description: Computes hashes from two directories,
-detect and report differences on the hashchain.
-Syntax: bshash [-a|d|f|g|h|v|V]
+Description: Computes hashes from two directories,detect and report differences on the hashchain.
+Syntax: ./bshashchain [-a|d|D|h|L|V]
 options:
 -a --algorithm     md5sum|sha1sum|sha256sum|sha512sum
-		   With -d calculates hash values from two directories
-		   and compares the respective hash lists.
--d --directory     Asks for path and directory name input
--D --debug-info    Presents exit codes and their meaning 
--h --help          Prints help menu.
--L --license-info  Prints license information.
--V --version       Print software version and exit.
+                   With -d calculates hash values from two directories and compares the respective hash lists
+-d --directoryAsks for path and directory name input
+-D --debug-info    Presents exit codes and their meaning
+-h --help          Prints help menu
+-L --license-info  Prints license information
+-V --version       Print software version and exit
 
 ----
 #To show license information
 ./hashchain.sh -L
 
-bhashchain.sh computes hashes from two directories,
-detect and report differences on the hashchain.
+bhashchain.sh computes hashes from two directories, detect and report differences on the hashchain.
 Copyright (C) 2022 by Rafael Lima
 Full license notice: https://github.com/leafara1000/bhashchain/blob/main/LICENSE
 
@@ -45,18 +42,25 @@ Full license notice: https://github.com/leafara1000/bhashchain/blob/main/LICENSE
 #To compare the hashchain from two directories
 ./bhashchain.sh -a md5sum|sha1sum|sha256sum|sha512sum [/absolute/path/to/first-directory-name/]
 
-dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-d                                                              d
-d [+] DATA INPUT: please insert the following information:     d
-d                                                              d
-dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+[+] DATA INPUT: please insert the following information:
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 
 Path AND name to directory 2:[/absolute/path/to/second-directory-name/]
 
 # Contributing
 If you have any ideas or feedbacks to share and to contribute with this project, just let me know.
-You can talk to me by sending an e-mail to: username@mail either by forking or reporting issues. 
-Thanks for any help in advance.
+You can talk to me by sending an e-mail to: username@mail either.
+You can fork this project, report issues and propose new features. 
+
+To contribute:
+
+- Write or fix function codes to propose new features or to improve the current ones;
+- Insert comments to help understand what your code does;
+- Inside functions, declare variables as local;
+- When submitting pull requests, include a brief summary of what you've done.
+
+Thanks for any help in advance!
 
 # License
 This project is licensed under the GNU General Public License v3.0
