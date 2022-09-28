@@ -11,23 +11,10 @@ chmod u+x bhashchain.sh
 
 # Usage 
 
-#To see its help menu
+#To see the help menu
 ./bhashchain.sh -h
 
-Help Menu.
-Usage examples:
- ./hashchain.sh -a md5sum -d [/absolute/path/to/first-directory-name/]
-
-Description: Computes hashes from two directories,detect and report differences on the hashchain.
-Syntax: ./bshashchain [-a|d|D|h|L|V]
-options:
--a --algorithm     md5sum|sha1sum|sha256sum|sha512sum
-                   With -d calculates hash values from two directories and compares the respective hash lists
--d --directoryAsks for path and directory name input
--D --debug-info    Presents exit codes and their meaning
--h --help          Prints help menu
--L --license-info  Prints license information
--V --version       Print software version and exit
+![help_menu](https://user-images.githubusercontent.com/39169975/192777833-01c348d8-0461-42f5-a5d1-501a94907d0d.png)
 
 ----
 #To show license information
@@ -42,10 +29,7 @@ Full license notice: https://github.com/leafara1000/bhashchain/blob/main/LICENSE
 #To compare the hashchain from two directories
 ./bhashchain.sh -a md5sum|sha1sum|sha256sum|sha512sum [/absolute/path/to/first-directory-name/]
 
-ddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 [+] DATA INPUT: please insert the following information:
-ddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-
 Path AND name to directory 2:[/absolute/path/to/second-directory-name/]
 
 # Contributing
