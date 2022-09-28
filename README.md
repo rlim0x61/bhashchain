@@ -1,5 +1,5 @@
 # Bash script hash chain (bhashchain)
-Bash script to perform hashsum calculation and comparisons between two objects: hash list files either directories.
+It is a bash script that takes two directories, computes hashes from all objects stored on each of them, then detects and reports differences on the hashchain. 
 
 # Description
 This script computes hashes from two directories (a source directory) wich contains reliable objects that are actually on a version you trusts on, and a (destination directory) which might be changed intention or unintentionally.
@@ -12,9 +12,7 @@ chmod u+x bhashchain.sh
 # Usage 
 
 #To see the help menu
-./bhashchain.sh -h
-
-![help_menu](https://user-images.githubusercontent.com/39169975/192777833-01c348d8-0461-42f5-a5d1-501a94907d0d.png)
+![help_menu](https://user-images.githubusercontent.com/39169975/192855594-4b0e9834-c241-431d-bccd-a6d4488e9200.png)
 
 ----
 #To show license information
@@ -29,8 +27,7 @@ Full license notice: https://github.com/leafara1000/bhashchain/blob/main/LICENSE
 #To compare the hashchain from two directories
 ./bhashchain.sh -a md5sum|sha1sum|sha256sum|sha512sum [/absolute/path/to/first-directory-name/]
 
-[+] DATA INPUT: please insert the following information:
-Path AND name to directory 2:[/absolute/path/to/second-directory-name/]
+![all_hashes_match](https://user-images.githubusercontent.com/39169975/192855920-c2370e6d-0623-4859-ac8e-09b790434356.png)
 
 # Contributing
 If you have any ideas or feedbacks to share and to contribute with this project, just let me know.
