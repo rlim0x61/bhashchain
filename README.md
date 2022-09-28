@@ -6,8 +6,13 @@ This script computes hashes from two directories (a source directory) wich conta
 When executed according to the given instructions on its help menu, this program can check if there was or there wasn't any changes to the files. It does this by computing recursivelly the hashsum of all objects from both given directories and after that presenting the results.
 
 # Installation
-git clone git@github.com:leafara1000/bhashchain.git
+git clone https://github.com/rlim0x61/bhashchain.git
 chmod u+x bhashchain.sh
+
+Just in case you see some "permission denied" messages:
+
+- check file permission and ownership: ls -la
+- make necessary changes by using chmod or chown
 
 # Usage 
 
@@ -19,7 +24,7 @@ chmod u+x bhashchain.sh
 
 bhashchain.sh computes hashes from two directories, detect and report differences on the hashchain.
 Copyright (C) 2022 by Rafael Lima
-Full license notice: https://github.com/leafara1000/bhashchain/blob/main/LICENSE
+Full license notice: https://github.com/rlim0x61/bhashchain/blob/main/LICENSE
 
 ----
 
