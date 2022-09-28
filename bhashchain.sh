@@ -132,7 +132,7 @@ LicenseInfo()
    echo -e "bhashchain.sh computes hashes from two directories,\ndetect and report differences on the hashchain."
    echo ""
    echo "Copyright (C) 2022 by Rafael Lima"
-   echo "Full license notice: https://github.com/leafara1000/bhashchain/blob/main/LICENSE"
+   echo "Full license notice: https://github.com/rlim0x61/bhashchain/blob/main/LICENSE   "
    echo "--------------------------------------------------------------------------------"
 }
 
