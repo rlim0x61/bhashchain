@@ -11,7 +11,6 @@ chmod u+x bhashchain.sh
 
 # Usage 
 
-#To see the help menu
 ![help_menu](https://user-images.githubusercontent.com/39169975/192855594-4b0e9834-c241-431d-bccd-a6d4488e9200.png)
 
 ----
