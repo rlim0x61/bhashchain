@@ -49,3 +49,7 @@ Thanks for any help in advance!
 
 # License
 This project is licensed under the GNU General Public License v3.0
+
+# Tested on
+Ubuntu 20.04.5 LTS
+Codename: focal
