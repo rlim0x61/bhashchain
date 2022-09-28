@@ -51,7 +51,7 @@ d [+] DATA INPUT: please insert the following information:     d
 d                                                              d
 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 
-Path AND name to directory 2: [/absolute/path/to/second-directory-name/]
+Path AND name to directory 2:[/absolute/path/to/second-directory-name/]
 
 # Contributing
 If you have any ideas or feedbacks to share and to contribute with this project, just let me know.
